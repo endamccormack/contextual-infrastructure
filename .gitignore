@@ -15,6 +15,7 @@ modules/*/dependencies
 dependencies
 
 Gemfile.lock
+Puppetfile.lock
 
 ### OSX ###
 .DS_Store

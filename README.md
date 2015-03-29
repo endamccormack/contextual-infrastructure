@@ -30,12 +30,18 @@ Download and install VirtualBox from [here](https://www.virtualbox.org/wiki/Down
 		```
 		gem install librarian-puppet
 		```
-	3. [Bundler](http://bundler.io/)
+	2. [Bundler](http://bundler.io/)
 
 		Simply enter this command in the terminal.
 		```
 		gem install bundler
 		```
+       3. Install gems
+
+                Simply enter this command in the terminal.
+                ```
+                bundle install
+                ```
 	4. Run librarian-puppet
 
 		Run the command from this cloned projects directory in the terminal.
