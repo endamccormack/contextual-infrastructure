@@ -24,21 +24,18 @@ Download and install VirtualBox from [here](https://www.virtualbox.org/wiki/Down
 		```
 		> If it doesnt give you a ruby version then you can download and install ruby from [here](https://www.ruby-lang.org/en/)
 
-	2. [librarian-puppet](https://github.com/rodjek/librarian-puppet)
+	2. [Bundler](http://bundler.io/)
 
 		Simply enter this command in the terminal.
-		```
-		gem install librarian-puppet
-		```
-	3. [Bundler](http://bundler.io/)
 
-		Simply enter this command in the terminal.
 		```
 		gem install bundler
 		```
-	4. Run librarian-puppet
+
+	3. Run librarian-puppet
 
 		Run the command from this cloned projects directory in the terminal.
+
 		```
 		bundle exec librarian-puppet install
 		```
