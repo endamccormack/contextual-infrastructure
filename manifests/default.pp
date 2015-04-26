@@ -42,20 +42,6 @@ node default {
 
 }
 
-class setup {
-  
-  file { "/vagrant/dependencies":
-      ensure => "directory",
-  }
-
-  file { "/vagrant/dependencies/packages":
-      ensure => "directory",
-      require => File["/vagrant/dependencies"]
-  }
-
-}
-
-include setup
 include mysql5
 include play
 include ruby
